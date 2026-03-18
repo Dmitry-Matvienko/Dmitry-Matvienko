@@ -1,0 +1,42 @@
+name: Generate profile snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate-snake.cjs"
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install generator
+        run: npm install --no-save @ali1416/snk@1.2.0
+
+      - name: Generate snake SVGs
+        run: node scripts/generate-snake.cjs
+        env:
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-snake.svg assets/github-snake-dark.svg
+          git commit -m "chore: init snake" || exit 0
+          git push
