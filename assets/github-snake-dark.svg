@@ -69,6 +69,7 @@
 @keyframes c5-39{0%,72.73%,100%{fill:var(--c1)}72.731%,99.999%{fill:var(--c0)}}.c5-39{animation-name:c5-39}
 @keyframes c6-39{0%,73.33%,100%{fill:var(--c1)}73.331%,99.999%{fill:var(--c0)}}.c6-39{animation-name:c6-39}
 @keyframes c6-29{0%,79.39%,100%{fill:var(--c2)}79.391%,99.999%{fill:var(--c0)}}.c6-29{animation-name:c6-29}
+@keyframes c5-52{0%,93.94%,100%{fill:var(--c3)}93.941%,99.999%{fill:var(--c0)}}.c5-52{animation-name:c5-52}
 .s{shape-rendering:geometricPrecision;fill:#800080;animation:none linear 16500ms infinite}
 @keyframes s0{
 0%,3.03%{transform:translate(0px,-14px)}
@@ -319,6 +320,7 @@
 @keyframes p37{0%,69.09%{transform:scale(0,1)}69.70%,100%{transform:scale(1,1)}}.p37{fill:var(--c4);animation-name:p37;transform-origin:532.73px 0}
 @keyframes p38{0%,72.12%{transform:scale(0,1)}73.33%,100%{transform:scale(1,1)}}.p38{fill:var(--c1);animation-name:p38;transform-origin:557.17px 0}
 @keyframes p39{0%,78.79%{transform:scale(0,1)}79.39%,100%{transform:scale(1,1)}}.p39{fill:var(--c2);animation-name:p39;transform-origin:610.93px 0}
+@keyframes p40{0%,93.33%{transform:scale(0,1)}93.94%,100%{transform:scale(1,1)}}.p40{fill:var(--c3);animation-name:p40;transform-origin:728.23px 0}
 </style>
 <use href="#r" x="0" y="0" class="c"/>
 <use href="#r" x="14" y="0" class="c"/>
@@ -637,7 +639,7 @@
 <use href="#r" x="686" y="70" class="c"/>
 <use href="#r" x="700" y="70" class="c"/>
 <use href="#r" x="714" y="70" class="c"/>
-<use href="#r" x="728" y="70" class="c"/>
+<use href="#r" x="728" y="70" class="c c5-52"/>
 <use href="#r" x="0" y="84" class="c"/>
 <use href="#r" x="14" y="84" class="c"/>
 <use href="#r" x="28" y="84" class="c"/>
@@ -690,6 +692,7 @@
 <use href="#r" x="686" y="84" class="c"/>
 <use href="#r" x="700" y="84" class="c"/>
 <use href="#r" x="714" y="84" class="c"/>
+<use href="#r" x="728" y="84" class="c"/>
 <rect class="p p0" y="100" height="10" x="0.00" width="738.00"/>
 <rect class="p p1" y="100" height="10" x="34.21" width="4.89"/>
 <rect class="p p2" y="100" height="10" x="39.10" width="39.10"/>
@@ -730,6 +733,7 @@
 <rect class="p p37" y="100" height="10" x="532.73" width="4.89"/>
 <rect class="p p38" y="100" height="10" x="557.17" width="9.77"/>
 <rect class="p p39" y="100" height="10" x="610.93" width="4.89"/>
+<rect class="p p40" y="100" height="10" x="728.23" width="4.89"/>
 <g clip-path="url(#cp)">
 <rect class="s s0" x="-2" y="-2" width="14" height="14" rx="5" ry="5"/>
 <rect class="s s1" x="-1" y="-1" width="12" height="12" rx="4" ry="4"/>
