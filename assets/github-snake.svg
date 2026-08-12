@@ -49,15 +49,16 @@
 @keyframes c0-32{0%,57.86%,100%{fill:var(--c2)}57.861%,99.999%{fill:var(--c0)}}.c0-32{animation-name:c0-32}
 @keyframes c0-31{0%,58.49%,100%{fill:var(--c4)}58.491%,99.999%{fill:var(--c0)}}.c0-31{animation-name:c0-31}
 @keyframes c2-31{0%,59.75%,100%{fill:var(--c3)}59.751%,99.999%{fill:var(--c0)}}.c2-31{animation-name:c2-31}
-@keyframes c3-31{0%,60.38%,100%{fill:var(--c3)}60.381%,99.999%{fill:var(--c0)}}.c3-31{animation-name:c3-31}
-@keyframes c4-31{0%,61.01%,100%{fill:var(--c1)}61.011%,99.999%{fill:var(--c0)}}.c4-31{animation-name:c4-31}
+@keyframes c3-31{0%,60.38%,100%{fill:var(--c2)}60.381%,99.999%{fill:var(--c0)}}.c3-31{animation-name:c3-31}
+@keyframes c4-31{0%,61.01%,100%{fill:var(--c2)}61.011%,99.999%{fill:var(--c0)}}.c4-31{animation-name:c4-31}
 @keyframes c4-30{0%,61.64%,100%{fill:var(--c1)}61.641%,99.999%{fill:var(--c0)}}.c4-30{animation-name:c4-30}
 @keyframes c3-30{0%,62.26%,100%{fill:var(--c2)}62.261%,99.999%{fill:var(--c0)}}.c3-30{animation-name:c3-30}
 @keyframes c2-30{0%,62.89%,100%{fill:var(--c4)}62.891%,99.999%{fill:var(--c0)}}.c2-30{animation-name:c2-30}
 @keyframes c5-30{0%,66.04%,100%{fill:var(--c1)}66.041%,99.999%{fill:var(--c0)}}.c5-30{animation-name:c5-30}
 @keyframes c6-30{0%,66.67%,100%{fill:var(--c1)}66.671%,99.999%{fill:var(--c0)}}.c6-30{animation-name:c6-30}
 @keyframes c6-20{0%,72.96%,100%{fill:var(--c2)}72.961%,99.999%{fill:var(--c0)}}.c6-20{animation-name:c6-20}
-@keyframes c5-43{0%,88.05%,100%{fill:var(--c3)}88.051%,99.999%{fill:var(--c0)}}.c5-43{animation-name:c5-43}
+@keyframes c5-43{0%,88.05%,100%{fill:var(--c2)}88.051%,99.999%{fill:var(--c0)}}.c5-43{animation-name:c5-43}
+@keyframes c6-43{0%,88.68%,100%{fill:var(--c1)}88.681%,99.999%{fill:var(--c0)}}.c6-43{animation-name:c6-43}
 .s{shape-rendering:geometricPrecision;fill:#800080;animation:none linear 15900ms infinite}
 @keyframes s0{
 0%,3.14%{transform:translate(0px,-14px)}
@@ -100,7 +101,8 @@
 66.67%{transform:translate(420px,84px)}
 72.96%{transform:translate(280px,84px)}
 73.58%{transform:translate(280px,70px)}
-93.71%{transform:translate(728px,70px)}
+88.05%{transform:translate(602px,70px)}
+88.68%{transform:translate(602px,84px)}
 94.34%{transform:translate(728px,84px)}
 94.97%,100%{transform:translate(728px,98px)}
 }
@@ -146,7 +148,8 @@
 67.30%{transform:translate(420px,84px)}
 73.58%{transform:translate(280px,84px)}
 74.21%{transform:translate(280px,70px)}
-94.34%{transform:translate(728px,70px)}
+88.68%{transform:translate(602px,70px)}
+89.31%{transform:translate(602px,84px)}
 94.97%{transform:translate(728px,84px)}
 95.60%,100%{transform:translate(728px,98px)}
 }
@@ -192,7 +195,8 @@
 67.92%{transform:translate(420px,84px)}
 74.21%{transform:translate(280px,84px)}
 74.84%{transform:translate(280px,70px)}
-94.97%{transform:translate(728px,70px)}
+89.31%{transform:translate(602px,70px)}
+89.94%{transform:translate(602px,84px)}
 95.60%{transform:translate(728px,84px)}
 96.23%,100%{transform:translate(728px,98px)}
 }
@@ -238,7 +242,8 @@
 68.55%{transform:translate(420px,84px)}
 74.84%{transform:translate(280px,84px)}
 75.47%{transform:translate(280px,70px)}
-95.60%{transform:translate(728px,70px)}
+89.94%{transform:translate(602px,70px)}
+90.57%{transform:translate(602px,84px)}
 96.23%{transform:translate(728px,84px)}
 96.86%,100%{transform:translate(728px,98px)}
 }
@@ -275,13 +280,15 @@
 @keyframes p28{0%,55.97%{transform:scale(0,1)}56.60%,100%{transform:scale(1,1)}}.p28{fill:var(--c3);animation-name:p28;transform-origin:427.53px 0}
 @keyframes p29{0%,56.60%{transform:scale(0,1)}57.86%,100%{transform:scale(1,1)}}.p29{fill:var(--c2);animation-name:p29;transform-origin:432.62px 0}
 @keyframes p30{0%,57.86%{transform:scale(0,1)}58.49%,100%{transform:scale(1,1)}}.p30{fill:var(--c4);animation-name:p30;transform-origin:442.80px 0}
-@keyframes p31{0%,59.12%{transform:scale(0,1)}60.38%,100%{transform:scale(1,1)}}.p31{fill:var(--c3);animation-name:p31;transform-origin:452.98px 0}
-@keyframes p32{0%,60.38%{transform:scale(0,1)}61.64%,100%{transform:scale(1,1)}}.p32{fill:var(--c1);animation-name:p32;transform-origin:463.16px 0}
-@keyframes p33{0%,61.64%{transform:scale(0,1)}62.26%,100%{transform:scale(1,1)}}.p33{fill:var(--c2);animation-name:p33;transform-origin:473.34px 0}
-@keyframes p34{0%,62.26%{transform:scale(0,1)}62.89%,100%{transform:scale(1,1)}}.p34{fill:var(--c4);animation-name:p34;transform-origin:478.43px 0}
-@keyframes p35{0%,65.41%{transform:scale(0,1)}66.67%,100%{transform:scale(1,1)}}.p35{fill:var(--c1);animation-name:p35;transform-origin:503.88px 0}
-@keyframes p36{0%,72.33%{transform:scale(0,1)}72.96%,100%{transform:scale(1,1)}}.p36{fill:var(--c2);animation-name:p36;transform-origin:559.86px 0}
-@keyframes p37{0%,87.42%{transform:scale(0,1)}88.05%,100%{transform:scale(1,1)}}.p37{fill:var(--c3);animation-name:p37;transform-origin:682.01px 0}
+@keyframes p31{0%,59.12%{transform:scale(0,1)}59.75%,100%{transform:scale(1,1)}}.p31{fill:var(--c3);animation-name:p31;transform-origin:452.98px 0}
+@keyframes p32{0%,59.75%{transform:scale(0,1)}61.01%,100%{transform:scale(1,1)}}.p32{fill:var(--c2);animation-name:p32;transform-origin:458.07px 0}
+@keyframes p33{0%,61.01%{transform:scale(0,1)}61.64%,100%{transform:scale(1,1)}}.p33{fill:var(--c1);animation-name:p33;transform-origin:468.25px 0}
+@keyframes p34{0%,61.64%{transform:scale(0,1)}62.26%,100%{transform:scale(1,1)}}.p34{fill:var(--c2);animation-name:p34;transform-origin:473.34px 0}
+@keyframes p35{0%,62.26%{transform:scale(0,1)}62.89%,100%{transform:scale(1,1)}}.p35{fill:var(--c4);animation-name:p35;transform-origin:478.43px 0}
+@keyframes p36{0%,65.41%{transform:scale(0,1)}66.67%,100%{transform:scale(1,1)}}.p36{fill:var(--c1);animation-name:p36;transform-origin:503.88px 0}
+@keyframes p37{0%,72.33%{transform:scale(0,1)}72.96%,100%{transform:scale(1,1)}}.p37{fill:var(--c2);animation-name:p37;transform-origin:559.86px 0}
+@keyframes p38{0%,87.42%{transform:scale(0,1)}88.05%,100%{transform:scale(1,1)}}.p38{fill:var(--c2);animation-name:p38;transform-origin:682.01px 0}
+@keyframes p39{0%,88.05%{transform:scale(0,1)}88.68%,100%{transform:scale(1,1)}}.p39{fill:var(--c1);animation-name:p39;transform-origin:687.10px 0}
 </style>
 <use href="#r" x="0" y="0" class="c"/>
 <use href="#r" x="14" y="0" class="c"/>
@@ -494,6 +501,7 @@
 <use href="#r" x="686" y="42" class="c"/>
 <use href="#r" x="700" y="42" class="c"/>
 <use href="#r" x="714" y="42" class="c"/>
+<use href="#r" x="728" y="42" class="c"/>
 <use href="#r" x="0" y="56" class="c c4-0"/>
 <use href="#r" x="14" y="56" class="c"/>
 <use href="#r" x="28" y="56" class="c"/>
@@ -641,7 +649,7 @@
 <use href="#r" x="560" y="84" class="c"/>
 <use href="#r" x="574" y="84" class="c"/>
 <use href="#r" x="588" y="84" class="c"/>
-<use href="#r" x="602" y="84" class="c"/>
+<use href="#r" x="602" y="84" class="c c6-43"/>
 <use href="#r" x="616" y="84" class="c"/>
 <use href="#r" x="630" y="84" class="c"/>
 <use href="#r" x="644" y="84" class="c"/>
@@ -681,13 +689,15 @@
 <rect class="p p28" y="100" height="10" x="427.53" width="5.09"/>
 <rect class="p p29" y="100" height="10" x="432.62" width="10.18"/>
 <rect class="p p30" y="100" height="10" x="442.80" width="5.09"/>
-<rect class="p p31" y="100" height="10" x="452.98" width="10.18"/>
-<rect class="p p32" y="100" height="10" x="463.16" width="10.18"/>
-<rect class="p p33" y="100" height="10" x="473.34" width="5.09"/>
-<rect class="p p34" y="100" height="10" x="478.43" width="5.09"/>
-<rect class="p p35" y="100" height="10" x="503.88" width="10.18"/>
-<rect class="p p36" y="100" height="10" x="559.86" width="5.09"/>
-<rect class="p p37" y="100" height="10" x="682.01" width="5.09"/>
+<rect class="p p31" y="100" height="10" x="452.98" width="5.09"/>
+<rect class="p p32" y="100" height="10" x="458.07" width="10.18"/>
+<rect class="p p33" y="100" height="10" x="468.25" width="5.09"/>
+<rect class="p p34" y="100" height="10" x="473.34" width="5.09"/>
+<rect class="p p35" y="100" height="10" x="478.43" width="5.09"/>
+<rect class="p p36" y="100" height="10" x="503.88" width="10.18"/>
+<rect class="p p37" y="100" height="10" x="559.86" width="5.09"/>
+<rect class="p p38" y="100" height="10" x="682.01" width="5.09"/>
+<rect class="p p39" y="100" height="10" x="687.10" width="5.09"/>
 <g clip-path="url(#cp)">
 <rect class="s s0" x="-2" y="-2" width="14" height="14" rx="5" ry="5"/>
 <rect class="s s1" x="-1" y="-1" width="12" height="12" rx="4" ry="4"/>
